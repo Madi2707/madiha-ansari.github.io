@@ -8,49 +8,52 @@
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
-
+    <a name="top"></a>
     <header>
         <h1>Intelligent Accidents Monitoring and Management System</h1>
     </header>
-
     <main>
         <!-- Introduction Section -->
         <section id="introduction">
+            <!-- Navigation -->
+            <a href="index.html" class="btn" style="font-size: 10px;">Go to Home</a>
             <h2>Project Overview</h2>
-            <p>This project focuses on developing a system that intelligently monitors and manages bus accident data in urban environment. By leveraging advanced machine learning models and real-time data processing, the system aims to enhance road safety and provide actionable insights for fleet operations.</p>
+            <p>The project focuses on developing a system that intelligently monitors and provides data driven analytics for bus accidents in urban environment. By leveraging advanced machine learning models and GPS data processing, the system aims to enhance road safety and provide actionable insights for fleet operations.</p>
             <img src="images/aims_arch1.jpg" alt="Project Overview">
         </section>
 
         <!-- Dashboard Section 1 -->
         <section id="dashboard1">
-            <h2>Accident Severity Dashboard</h2>
             <img src="images/aims_dash1.jpg" alt="Accident Severity Dashboard">
-            <p>The Accident Severity Dashboard visualizes data on the frequency and severity of accidents in various locations. This dashboard helps to identify high-risk areas and informs decision-making for road safety improvements.</p>
+            <p>This Dashboard visualizes locations with the frequency and severity of accidents on different routes. I used DBSCAN Clustering Algorithm to identify route clusters.</p>
         </section>
 
         <!-- Dashboard Section 2 -->
         <section id="dashboard2">
-            <h2>Real-Time Daily Monitoring Dashboard</h2>
             <img src="images/aims_dash2.jpg" alt="Real-Time Monitoring Dashboard">
-            <p>The Real-Time Monitoring Dashboard provides live updates on ongoing incidents. It displays accident locations, time, and severity level, enabling quick responses from emergency services.</p>
+            <p>The daily monitoring Dashboard provides details of daily accidents. It displays accident locations, routes, and severity, enabling quick responses from emergency services or operational actions.</p>
         </section>
 
         <!-- Dashboard Section 3 -->
         <section id="dashboard3">
-            <h2>Driver Statistics Dashboard</h2>
-            <img src="images/aims_dash3.jpg" alt="Predictive Analysis Dashboard">
-            <p>This dashboard provides a comprehensive overview into driver behavior, route performance, and areas for improvement to enhance overall safety and operational efficiency. It tracks individual driver violations, enabling the operations team to identify trends and deliver customized training for drivers. The insights help in fostering a safer driving environment and optimizing overall fleet performance.</p>
-       
+             <img src="images/aims_dash3.jpg" alt="Predictive Analysis Dashboard">
+            <p>The above provides a comprehensive overview into driver behavior, driver experience, amount and type of damage. It also tracks individual driver violations, enabling the operations team to identify trends and deliver customized training for drivers. The insights help in fostering a safer driving environment and optimizing overall fleet performance.</p>
         </section>
-       <!-- Dashboard Section 4 -->
+
+        <!-- Dashboard Section 4 -->
         <section id="dashboard4">
-            <h2>Advanced Driver Assistance System Analysis</h2>
             <img src="images/aims_dash4.jpg" alt="Predictive Analysis Dashboard">
-            <p>This dashboard offers a detailed analysis of Advanced Driver Assistance Systems (ADAS) vehicle performance. The data-driven insights help optimize vehicle safety features and enhance driver support, promoting safer and more efficient driving.</p>
+            <p>This dashboard offers a detailed analysis of Advanced Driver Assistance Systems (ADAS) performance. The data-driven insights help optimize vehicle safety features and enhance driver support, promoting safer and more efficient driving.</p>
+            <p>We are monitoring the performance of 36 ADAS fitted route buses. Four of them have camera mirrors. We get data from the telematics to compare and create algorithm based analytics</p>
         </section>
 
         <!-- Dashboard Section 5 -->
         <section id="dashboard5">
+            <img src="images/aims_dash5.jpg" alt="Predictive Analysis Dashboard">
+        </section>
+        
+        <!-- Section 6 -->
+        <section id="application">
             <h2>Predictive Analysis Application</h2>
             <img src="images/pred_aims_appl.jpg" alt="Predictive Analysis Dashboard">
             <p>The application above utilizes predictive analytics to forecast accident fault. It takes nine categorical features and predicts the outcome of who was at fault. The features are:</p>
@@ -65,14 +68,15 @@
                 <li>Damage Type</li>
                 <li>Location of Damage</li>
             </ul>
+            <p>It has been further enhanced to predict liability cost based on same features.</p>
         </section>
-
-
 
         <!-- Conclusion Section -->
         <section id="conclusion">
             <h2>Conclusion</h2>
             <p>The Intelligent Accidents Monitoring and Management System represents a significant advancement in road safety technology, leveraging the power of machine learning (ML) and artificial intelligence (AI). By integrating advanced data visualization with predictive modeling, the system not only identifies patterns and trends in real-time accident data but also forecasts potential incidents. This AI-driven approach provides a comprehensive tool for proactively managing and mitigating the impact of road accidents, enhancing decision-making, and ultimately contributing to safer public transportion.</p>
+                <!-- Navigation -->
+            <a href="#top" class="btn" style="font-size: 10px; margin-bottom: 20px;">Top</a>
         </section>
     </main>
 
